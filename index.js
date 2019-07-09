@@ -30,8 +30,12 @@ for (member of members) {
 
 log(notInRoom);
 log(inRoom);
-log('---')
 
+// delimiter
+log('---')
+log('In rooms:')
+
+// getting an array of users in rooms
 var roomsContent = [];
 for (channel of channels) {
     var channelId = channel.id;
@@ -55,3 +59,17 @@ for (channel of channels) {
 for (item of roomsContent) {
     log(item);
 }
+
+
+// getting an array of users that not in any room
+var onlineUsers = [];
+for (user of notInRoom) {
+    onlineUsers.push(user.username); // here you'll get all the needed information about user. It's just a username for now as a proof of concept.
+}
+
+// delimiter
+log('------')
+log('Not in any room:')
+
+// log to console contet of an arrays of users not in rooms
+log(onlineUsers)
