@@ -1,0 +1,87 @@
+{
+	"channels": [{
+			"position": 6,
+			"id": "396070440268988427",
+			"name": "AFK"
+		}, {
+			"position": 5,
+			"id": "432206030169178112",
+			"name": "дота"
+		}, {
+			"position": 0,
+			"id": "535852627813072917",
+			"name": "кс"
+		}, {
+			"position": 2,
+			"id": "395608968480686093",
+			"name": "не пукать не чавкать не рыгать"
+		}, {
+			"position": 4,
+			"id": "528593018153074709",
+			"name": "Не рыгать тут блядт"
+		}, {
+			"position": 1,
+			"id": "432205936090677248",
+			"name": "Дарова"
+		}, {
+			"position": 3,
+			"id": "408304741458771969",
+			"name": "ха"
+		}
+	],
+	"members": [{
+			"username": "M0slike",
+			"nick": "ya boy",
+			"status": "online",
+			"channel_id": "432205936090677248",
+			"mute": false,
+			"deaf": false,
+			"suppress": false,
+			"self_mute": false,
+			"self_deaf": false
+		}, {
+			"username": "iconKilla",
+			"nick": "\u041A\u0438\u043B\u043B\u0435\u0440",
+			"status": "online",
+			"channel_id": "432205936090677248",
+			"mute": false,
+			"deaf": false,
+			"suppress": false,
+			"self_mute": false,
+			"self_deaf": false
+		}, {
+			"username": "Pluxury86",
+			"nick": "\u0413\u0435\u043D\u0430",
+			"status": "online",
+			"channel_id": "432205936090677248",
+			"mute": false,
+			"deaf": false,
+			"suppress": false,
+			"self_mute": true,
+			"self_deaf": false
+		}, {
+			"username": "wizovski",
+			"status": "away",
+			"channel_id": "396070440268988427",
+			"mute": false,
+			"deaf": false,
+			"suppress": false,
+			"self_mute": true,
+			"self_deaf": true
+		}, {
+			"username": "KeRiM",
+			"status": "online",
+			"channel_id": "528593018153074709",
+			"mute": false,
+			"deaf": false,
+			"suppress": false,
+			"self_mute": false,
+			"self_deaf": false
+		}, {
+			"username": "MessgraVe",
+			"status": "online",
+			"nick": "MessgraVe"
+		}
+	],
+	"name": "\u041f\u0435\u043d\u0441\u0438\u043e\u043d\u0435\u0440\u044b \u043a\u0430\u043b\u0443\u0436\u0441\u043a\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438 \u0441\u044e\u0434\u0430"
+}

@@ -1,0 +1,15 @@
+AFK: {
+	wizovski
+}
+Не рыгать тут блядт: {
+	KeRiM
+}
+Дарова: {
+	M0slike,
+	iconKilla,
+	Pluxury86
+}
+
+Не на сервере: {
+	MessgraVe
+}
