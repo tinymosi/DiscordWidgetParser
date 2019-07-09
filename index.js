@@ -30,21 +30,28 @@ for (member of members) {
 
 log(notInRoom);
 log(inRoom);
+log('---')
 
-// for (channel of channels) {
-//     var channelId = channel.id;
+var roomsContent = [];
+for (channel of channels) {
+    var channelId = channel.id;
+    var room = [];
 
-//     for (member of members) {
-//         var memberId = member.channel_id;
+    for (user of inRoom) {
+        var memberId = user.channel_id;
 
-//         if (channelId == memberId) {
-//             inRoom.push(member);
-//         }
-//     }
-// }
+        if (channelId == memberId) {
+            room.push(user.username); // here you'll get all the needed information about user. It's just a username for now as a proof of concept.
+        }
+    }
 
+    if (room.length != 0) {
+        room.unshift(channel.name, '---');
+        roomsContent.push(room)
+    }
+}
 
-
-
-
-
+// log to console contet of an arrays of users in rooms
+for (item of roomsContent) {
+    log(item);
+}
