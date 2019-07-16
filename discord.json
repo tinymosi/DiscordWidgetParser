@@ -32,7 +32,7 @@
 	"members": [{
 			"username": "M0slike",
 			"nick": "ya boy",
-			"status": "online",
+			"status": "dnd",
 			"channel_id": "432205936090677248",
 			"mute": false,
 			"deaf": false,
@@ -54,6 +54,7 @@
 			"nick": "\u0413\u0435\u043D\u0430",
 			"status": "online",
 			"channel_id": "432205936090677248",
+			"game":{"name": "Counter-Strice: Global Offensive"},
 			"mute": false,
 			"deaf": false,
 			"suppress": false,
@@ -61,7 +62,7 @@
 			"self_deaf": false
 		}, {
 			"username": "wizovski",
-			"status": "away",
+			"status": "idle",
 			"channel_id": "396070440268988427",
 			"mute": false,
 			"deaf": false,
@@ -72,6 +73,7 @@
 			"username": "KeRiM",
 			"status": "online",
 			"channel_id": "528593018153074709",
+			"game": {"name": "Spotify"},
 			"mute": false,
 			"deaf": false,
 			"suppress": false,
@@ -83,7 +85,7 @@
 			"nick": "MessgraVe"
 		}, {
 			"username": "NotOnlinePerson",
-			"status": "away",
+			"status": "idle",
 			"nick": "OfflineTest"
 		}
 	],
