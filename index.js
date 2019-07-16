@@ -152,11 +152,12 @@ if (roomsContent.length != 0) {
 }
 
 if (onlineUsers.length != 0) {
-    output += 'Люди онлайн:\n'
+    output += 'Люди онлайн:\n➖➖➖\n'
     for (onlineUser of onlineUsers) {
         output += onlineUser + ('\n');
     }
+    output = output.slice(0, -1);
 }
 
 log(output);
-Pasteboard.copy(output); // Scriptable copy method
+// Pasteboard.copy(output); // Scriptable copy method
