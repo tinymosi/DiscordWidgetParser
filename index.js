@@ -22,7 +22,7 @@ var getStarus = function (user) {
         if (user.game.name == 'Spotify') {
             return ('🎶 ')
         } else {
-            return ('🤖 ')
+            return ('👾 ')
         }
     }
     
@@ -78,7 +78,7 @@ var getMute = function(user) {
 
 // return full info about user
 var getUserInfo = function(user) {
-    let member ='';
+    let member = '';
     if (user.nick !== undefined) {
         return member += getDeaf(user) + getMute(user) + getStarus(user) + user.nick + ' (' + user.username + ')' + getGame(user)
     } else {
@@ -118,7 +118,7 @@ for (channel of channels) {
     }
 
     if (room.length != 0) {
-        room.unshift(channel.name, '---');
+        room.unshift(channel.name, '➖➖➖');
         room.push('\n');
         roomsContent.push(room)
     }
@@ -138,4 +138,25 @@ for (item of roomsContent) {
 log('------')
 // log to console content of an arrays of users not in rooms
 log('Not in any room:')
-log(onlineUsers.join(', '))
+log(onlineUsers)
+
+
+var output = '';
+if (roomsContent.length != 0) {
+    output += json.name + '\n';
+    for (room of roomsContent) {
+        output += room.join('\n');
+    }
+    output = output.slice(0, -1);
+    output += 'shortcutsDelimiter\n' // delimiter for Shortcuts app
+}
+
+if (onlineUsers.length != 0) {
+    output += 'Люди онлайн:\n'
+    for (onlineUser of onlineUsers) {
+        output += onlineUser + ('\n');
+    }
+}
+
+log(output);
+Pasteboard.copy(output); // Scriptable copy method
